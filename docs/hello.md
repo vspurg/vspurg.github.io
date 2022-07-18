@@ -1,3 +1,3 @@
 # Привет!
 
-This is my **first Docusaurus document**!
+This is my **first Docusaurus documents**!
