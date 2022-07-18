@@ -1,0 +1,19 @@
+{
+  "unversionedId": "hello",
+  "id": "hello",
+  "title": "Hello",
+  "description": "This is my first Docusaurus document!",
+  "source": "@site/docs/hello.md",
+  "sourceDirName": ".",
+  "slug": "/hello",
+  "permalink": "/hello",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/tutorial-extras/translate-your-site"
+  }
+}
