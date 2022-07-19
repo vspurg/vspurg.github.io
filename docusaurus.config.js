@@ -66,20 +66,14 @@ const config = {
           alt: 'Memoir44',
           src: 'img/logo.png',
         },
-        // items: [
+        items: [
+          {type: 'doc', docId: 'README', position: 'left', label: 'Документация'},
+          {to: '/faq', label: 'FAQv2(рус)', position: 'left'},
           // {
-            // type: 'doc',
-            // docId: 'intro',
-            // position: 'left',
-            // label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-            // href: 'https://github.com/facebook/docusaurus',
-            // label: 'GitHub',
+            // type: 'search',
             // position: 'right',
           // },
-        // ],
+        ],
       },
       // footer: {
         // style: 'dark',

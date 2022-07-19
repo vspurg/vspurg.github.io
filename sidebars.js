@@ -21,25 +21,55 @@ const sidebars = {
   introSidebar: [
     {
       type: 'category',
-      label: 'Вступительное слово',
+      label: 'Введение',
       collapsible: false,
       items: [
-	  'intro',
-	  'faq-ru'
-	  ]
+	  'README',
+	  'faq-about'
+	  ],
+    },
+	{
+      type: 'category',
+      label: 'Элементы сайта',
+      collapsible: false,
+      items: [
+	  'members',
+	  'markdown',
+	  ],
+	},
+  ],
+  faqSidebar: [
+    {
+      type: 'category',
+      label: 'FAQ Memoir44',
+      collapsible: false,
+      items: [
+        'faq/README',
+		'faq/general',
+		'faq/terrain',
+		'faq/actions',
+		'faq/troops',
+		'faq/air-rules',
+		'faq/airplanes',
+		'faq/nations',
+		'faq/command',
+		'faq/swa',
+		'faq/combat-cards',
+      ]
     },
   ],
-  // faqSidebar: [
-    // {
-      // type: 'category',
-      // label: 'FAQ Memoir'44',
-      // collapsible: false,
-      // items: [
-        // 'faq/README'
-      // ]
-    // },
+    internalSidebar: [
+    {
+      type: 'category',
+      label: 'Служебные документы',
+      collapsible: false,
+      items: [
+        'internal/README',
+      ]
+    },
+  ]
   
-
+  
 };
 
 module.exports = sidebars;
