@@ -24,8 +24,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
 
   presets: [
@@ -35,11 +35,12 @@ const config = {
       ({
         docs: {
 			routeBasePath: '/',
-          // sidebarPath: require.resolve('./sidebars.js'),
+			sidebarPath: require.resolve('./sidebars.js'),
+			sidebarCollapsible: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/vspurg/vspurg.github.io/tree/main/',
         },
         blog: false, //{
           // showReadingTime: true,
